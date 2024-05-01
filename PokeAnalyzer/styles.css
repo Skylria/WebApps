@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: white;
+    background-image: url(output-onlinegiftools.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+  
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.nav{
+    background-color: #ff0000
+}
+.nav-right{
+    float: right;
+}
+
+.nav .active {
+    background-color:#ffffff;
+    color: black;
+    border-bottom: 1px solid #c3bebe;
+}
+
+.red{
+    color:#ff0000;
+}
+
+.black{
+    color: black;
+}
+
+.container{
+    position: relative;
+    height: 900px;
+}
+
+.centered {
+    margin: 0;
+    top: 50%;
+    position: absolute;
+    width: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
